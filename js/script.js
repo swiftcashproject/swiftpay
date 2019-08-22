@@ -189,7 +189,7 @@ function switchCoin(whichCoin) {
            data: {
          },
          success: function (result) {
-           var fiatPrice = Number(result[PARAMS[CURRENT_COIN].coingecko][params.get('currency')]);
+           var fiatPrice = Number(result[PARAMS[CURRENT_COIN].coingecko][params.get('currency').toLowerCase()]);
            var deductFromPrice = params.get('deduct');
            if(deductFromPrice) fiatPrice = (100-deductFromPrice)*fiatPrice/100;
            $('#amount').prop('disabled', true).val((Number(params.get('amount'))/fiatPrice).toFixed(8));
