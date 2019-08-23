@@ -5,7 +5,7 @@ SwiftPay is a peer-to-peer payment gateway forked from the SwiftCash web wallet,
 After redirecting the user to this gateway hosted on https://pay.swiftcash.cc, with the provided paramters in the URL, the user will be asked to login with either their email and password or with a private key of the specific coin they have to pay in. The email and password login will land the user on their SwiftCash web wallet account. The coin to be used will be selected and cannot be changed and the merchant address, as well as the amount to be paid, will also be prefilled and cannot be changed. The user will then need to confirm the payment by clicking on "Send". If the transaction is broadcasted successfully, the user will then be redirected back to the return URL with all the parameters sent, as well as the txid. The merchant can then verify the transaction, by looking the transaction details up on a coin explorer or via a full node.
 
 # Hosting
-This web wallet is hosted on github, and can be verified and accessed via the following links:
+This app is hosted on github, and can be verified and accessed via the following links:
 
 * https://swiftcashproject.github.io/swiftpay/
 * https://pay.swiftcash.cc/
