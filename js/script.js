@@ -514,8 +514,6 @@ function spendf() {
 	else if(T1 && result) txid = result[T1];
 
 	if (txid && (typeof txid === 'string' || txid instanceof String)) {
-	   balance = change;
-	   $('#addr-balance').html("Balance: " + balance.toFixed(8) + " " + CURRENT_COIN);
 	   USD = false;
 	   usdBalance = false;
 	   if(change > 0 && ( changeAddress == keyPair.getAddress() )) {
@@ -523,8 +521,10 @@ function spendf() {
 		var p2 = PARAMS[CURRENT_COIN].unspentOutput;
 		var p3 = PARAMS[CURRENT_COIN].unspentValue;
 		utxos = [{[p1]: txid, [p2]: 1, [p3]: change*PARAMS[CURRENT_COIN].unspentDivision}];
-	   } else { utxos = []; }
+		balance = change;
+	   } else { utxos = []; balance = 0; }
 
+	   $('#addr-balance').html("Balance: " + balance.toFixed(8) + " " + CURRENT_COIN);
 	   window.open(PARAMS[CURRENT_COIN].explorer + "tx/" + txid);
 	   returnToMerchant(txid);
 	} else {
