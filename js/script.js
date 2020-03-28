@@ -2,7 +2,8 @@ var CURRENT_COIN = 'SWIFT';
 var PARAMS = {
 	'SWIFT': {
 		coingecko: 'swiftcash',
-		coinjs: cc.swiftcash,
+		coinjs: cc.bitcoin,
+		network: cc.bitcoin.networks.swiftcash,
 		qrColor: '3875CE',
 		minFee: 0.002,
 		maxFee: 0.2,
@@ -171,7 +172,7 @@ var loginPrivkey="";
 var keyPair="";
 function hashit(hash, callback) {
   for(i=0; i<100*1440; i++) {
-    hash = cc.swiftcash.crypto.keccak256(hash+passphrase);
+    hash = cc.bitcoin.crypto.keccak256(hash+passphrase);
     hash = hash.toString("hex");
   }
 
@@ -269,7 +270,7 @@ function login() {
 
   // Login with email + password
   passphrase = $("#email").val() + ";" + $("#password").val();
-  var hash = cc.swiftcash.crypto.keccak256(passphrase);
+  var hash = cc.bitcoin.crypto.keccak256(passphrase);
   $('#email').prop("disabled", true);
   $('#password').prop("disabled", true);
   $('#signin').prop("disabled", true);
