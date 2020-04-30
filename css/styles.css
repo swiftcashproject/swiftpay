@@ -11,6 +11,12 @@
 	outline: none;
 }
 
+.main-button {
+  width: 28px;
+  height: 28px;
+  font-size: 25px;
+}
+
 .form-control {
   position: relative;
   font-size: 16px;
@@ -24,7 +30,7 @@
 }
 
 .input-spend {
-    font-size: 12.6px;
+    font-size: 12px;
     font-family: monospace;
     font-weight: bold;
     height: 43px;
@@ -79,9 +85,10 @@ form {
 	margin-bottom: 50px;
 	background-color: #00263d;
 }
-	.form-links a {
-		color: #fff;
-	}
+
+.form-links a {
+	color: #fff;
+}
 
 .error-list {
 	padding-left: 20px;
