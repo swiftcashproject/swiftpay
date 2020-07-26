@@ -166,6 +166,15 @@ function closeQrModal() {
   scanner.stop();
 }
 
+function eyeFunction(id) {
+  var x = document.getElementById(id);
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+
 var passphrase="";
 var hashedPass="";
 var loginPrivkey="";
@@ -618,9 +627,13 @@ jQuery(document).ready(function() {
     $('#email').val("");
     $('#email').prop("disabled", true);
     $('#password').prop("placeholder", "Private Key");
+    $('#btnPasswordQR').show();
+    $('#btnPasswordEye').hide();
    } else {
     $('#email').prop("disabled", false);
     $('#password').prop("placeholder", "Password");
+    $('#btnPasswordQR').hide();
+    $('#btnPasswordEye').show();
    }
   });
 
