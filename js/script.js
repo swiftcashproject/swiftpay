@@ -541,11 +541,14 @@ function spendf() {
 	   } else { utxos = []; balance = 0; }
 
 	   $('#addr-balance').html("Balance: " + balance.toFixed(8) + " " + CURRENT_COIN);
-	   window.open(PARAMS[CURRENT_COIN].explorer + "tx/" + txid);
+           setTimeout( function() {
+              window.open(PARAMS[CURRENT_COIN].explorer + "tx/" + txid);
+           }, 1000);
+           alert("Transaction was broadcasted successfully!");
 	   returnToMerchant(txid);
 	} else {
 	   console.log(result);
-	   alert("Broadcast failed! Check console for the details!");
+	   alert("Broadcast failed! Check debug console for details!");
 	}
 
 	$('#address').prop("disabled", false).val("");
