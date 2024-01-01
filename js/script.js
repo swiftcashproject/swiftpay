@@ -772,7 +772,6 @@ function copyPrivateKey() {
 }
 
 var tx;
-
 function spendf() {
     var amount = Number(rAmount);
     var FEE = PARAMS[CURRENT_COIN].txFee + donation;
@@ -843,9 +842,6 @@ function spendf() {
             for (i = 0; i < utxos.length; i++) {
                 tx.sign(i, keyPair);
             }
-
-            console.log(tx.build().toHex());
-            return;
 
             $.ajax({
                 url: PARAMS[CURRENT_COIN].sendApi,
