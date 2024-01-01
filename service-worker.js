@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["LICENSE.md","21ad58e54206254c94c4130f367b17f2"],["README.md","0875ee1e469b786014923928fc4b9e8f"],["css/bootstrap.min.css","78e7f91c0c4cca415e0683626aa23925"],["css/styles.css","aaac10f9fa7a72bf66a8f2082829fb26"],["favicons/android-chrome-192x192.png","b96cdd22fe7e32664f616376dd191d0c"],["favicons/android-chrome-384x384.png","a88f65fb0190912201d174a0bdd654e6"],["favicons/android-icon-144x144.png","cef2ae65482cce591afeb2afd6fb33bc"],["favicons/android-icon-192x192.png","6ed478695d06b2ea43c986160136faab"],["favicons/android-icon-36x36.png","904117e09e5466c2dc729bebb22425cb"],["favicons/android-icon-48x48.png","959e4ed6b4bae5108b5cd89c63711c96"],["favicons/android-icon-72x72.png","9fbc99fb9938541fe9f3694c00b84bfb"],["favicons/android-icon-96x96.png","a3c35b25abb069b3da2c1414842943f6"],["favicons/apple-icon-114x114.png","43a8bdc078a5017ee32f7e5538b79c28"],["favicons/apple-icon-120x120.png","6a7572de3846a6f8c14a8e7706e6c798"],["favicons/apple-icon-144x144.png","cef2ae65482cce591afeb2afd6fb33bc"],["favicons/apple-icon-152x152.png","4eaab4486dd64a3bf38e7b8e399d1a1d"],["favicons/apple-icon-180x180.png","a66addcbdec2f25f83a9fe6a6895666c"],["favicons/apple-icon-57x57.png","6bb237b1528e1e5b8c6c489642a3e668"],["favicons/apple-icon-60x60.png","6ee5660642527dd1cd2db704928c5273"],["favicons/apple-icon-72x72.png","9fbc99fb9938541fe9f3694c00b84bfb"],["favicons/apple-icon-76x76.png","722f328e96a78fa1e3b93b070cd8baaa"],["favicons/apple-icon-precomposed.png","b44eab1c65119e23c386a59158de3f3d"],["favicons/apple-icon.png","b44eab1c65119e23c386a59158de3f3d"],["favicons/apple-touch-icon.png","d096f030e203db7740a57b94fd36175e"],["favicons/browserconfig.xml","1a5245beba2a795f88ef5c3088438b88"],["favicons/favicon-16x16.png","cefc2343210179819f5a050411e0f29e"],["favicons/favicon-32x32.png","637ffcac467f138ba53e864c29e1773f"],["favicons/favicon-96x96.png","a3c35b25abb069b3da2c1414842943f6"],["favicons/favicon.ico","02531a5dc97768a7f6c321757c14054d"],["favicons/manifest.json","b58fcfa7628c9205cb11a1b2c3e8f99a"],["favicons/ms-icon-144x144.png","cef2ae65482cce591afeb2afd6fb33bc"],["favicons/ms-icon-150x150.png","28fb1633d613f6fe0853f7ea3f908a7a"],["favicons/ms-icon-310x310.png","d5d2fe751a8fb2bff6585464f1720e83"],["favicons/ms-icon-70x70.png","284fcff335d2d385f258389e852fe175"],["favicons/mstile-150x150.png","bf4eed1864e5a7d4fac575bec19a9668"],["favicons/safari-pinned-tab.svg","8de8c38301a8b7112266cc89d83368ec"],["favicons/site.webmanifest","d896f3bfdeb099dbe0af98b2c2ecb5ac"],["images/background.png","8997d75c0f308c05f7f2910110973395"],["images/bitcoin.png","ed27a72c3023fd63d92895afb238fc32"],["images/dogecoin.png","275f07ef637fbd914af409155b85caa7"],["images/favicon.png","66d8db1becf9df749e1257ba30fead4f"],["images/litecoin.png","b086f5ee73169f0fbe2284852a77d243"],["images/loading.gif","af728ab084273573bb5e9d6282e72ce5"],["images/logo.png","96ff331dfa111d001afc56b5b0c56e67"],["images/qrloader.gif","f6e28ff66ff443599e43dcc8e86c9da1"],["images/swiftcash.png","937f432ffd09e837e8a36a21c040f4be"],["index.html","cd736ad85bc489b449209d53751a36e6"],["js/bootstrap.min.js","281cd50dd9f58c5550620fc148a7bc39"],["js/cc.js","77d6d042de9d1251c8ed57328eba87b8"],["js/clipboard.min.js","f06c52bfddb458ad87349acf9fac06c5"],["js/cookie.js","78695e0755da857435baae96799861f1"],["js/instascan.min.js","16e3388ac1f1340311c23727c1342b46"],["js/jquery-3.5.0.min.js","12108007906290015100837a6a61e9f4"],["js/script.js","34473561a600d126527337dc6b3d8078"]];
+var precacheConfig = [["LICENSE.md","22dc8431686ae254056231a3cea3a1d4"],["README.md","91a70210284eb076df716624eb36df8b"],["css/bootstrap.min.css","78e7f91c0c4cca415e0683626aa23925"],["css/styles.css","81a91ba68b5b0cf8ff94f65c2a5a7529"],["css/sweetalert2.min.css","6191bfa2fe6d8298da43f4e2080bf441"],["favicons/android-chrome-192x192.png","d15521165430bcf3c44155b32eb2f009"],["favicons/android-chrome-512x512.png","885100ffd324a9ff601298e38e5e1336"],["favicons/apple-touch-icon.png","f7d07d2ad003f13372ad20b18ebe4262"],["favicons/favicon-16x16.png","e7113d0b2ed12f7f60d43432b0da631c"],["favicons/favicon-32x32.png","2b217b486f6bb8b70718f85e8c5af20f"],["favicons/favicon.ico","b4fdbc25e00521cc8fe4a69cb4bfbcc7"],["favicons/site.webmanifest","053100cb84a50d2ae7f5492f7dd7f25e"],["images/background.png","77e10679ef5da853dfc53c8dfb73e508"],["images/bitcoin.png","f26bf61d4e3becf4df6936414f0865ab"],["images/dash.png","ad8fb2d500c8f0be840b71f3a3a24533"],["images/dogecoin.png","275f07ef637fbd914af409155b85caa7"],["images/favicon.png","e7113d0b2ed12f7f60d43432b0da631c"],["images/litecoin.png","eaf9de97ba9d2c2e6a8af82034472270"],["images/loading.gif","af728ab084273573bb5e9d6282e72ce5"],["images/logo.png","f1d7869201b3204cec5ea4feb2cc1fb7"],["images/qrloader.gif","f6e28ff66ff443599e43dcc8e86c9da1"],["images/swiftcash.png","2a163dd2726ce66b5e5384331a0442d1"],["index.html","ee8fa48d5d0b8a5ca16e60e6d6523568"],["js/bootstrap.min.js","281cd50dd9f58c5550620fc148a7bc39"],["js/cc.js","70d7f90ebceb82b6b2067839139f3c89"],["js/clipboard.min.js","f06c52bfddb458ad87349acf9fac06c5"],["js/cookie.js","78695e0755da857435baae96799861f1"],["js/instascan.min.js","16e3388ac1f1340311c23727c1342b46"],["js/jquery-3.5.0.min.js","12108007906290015100837a6a61e9f4"],["js/script.js","e5814a94a19bd05ae73ed984551405c3"],["js/sweetalert2.all.min.js","f95effdb9191d542a77edbe51b300f18"]];
 var cacheName = 'sw-precache-v3-sw-precache-' + (self.registration ? self.registration.scope : '');
 
 
@@ -45,7 +45,7 @@ var ignoreUrlParametersMatching = [/^utm_/];
 
 
 
-var addDirectoryIndex = function (originalUrl, index) {
+var addDirectoryIndex = function(originalUrl, index) {
     var url = new URL(originalUrl);
     if (url.pathname.slice(-1) === '/') {
       url.pathname += index;
@@ -53,7 +53,7 @@ var addDirectoryIndex = function (originalUrl, index) {
     return url.toString();
   };
 
-var cleanResponse = function (originalResponse) {
+var cleanResponse = function(originalResponse) {
     // If this is not a redirected response, then we don't have to do anything.
     if (!originalResponse.redirected) {
       return Promise.resolve(originalResponse);
@@ -75,7 +75,7 @@ var cleanResponse = function (originalResponse) {
     });
   };
 
-var createCacheKey = function (originalUrl, paramName, paramValue,
+var createCacheKey = function(originalUrl, paramName, paramValue,
                            dontCacheBustUrlsMatching) {
     // Create a new URL object to avoid modifying originalUrl.
     var url = new URL(originalUrl);
@@ -91,7 +91,7 @@ var createCacheKey = function (originalUrl, paramName, paramValue,
     return url.toString();
   };
 
-var isPathWhitelisted = function (whitelist, absoluteUrlString) {
+var isPathWhitelisted = function(whitelist, absoluteUrlString) {
     // If the whitelist is empty, then consider all URLs to be whitelisted.
     if (whitelist.length === 0) {
       return true;
@@ -104,7 +104,7 @@ var isPathWhitelisted = function (whitelist, absoluteUrlString) {
     });
   };
 
-var stripIgnoredUrlParameters = function (originalUrl,
+var stripIgnoredUrlParameters = function(originalUrl,
     ignoreUrlParametersMatching) {
     var url = new URL(originalUrl);
     // Remove the hash; see https://github.com/GoogleChrome/sw-precache/issues/290
