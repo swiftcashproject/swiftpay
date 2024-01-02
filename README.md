@@ -31,7 +31,7 @@ By default, all changes are sent back to the sender's address. To specify a cust
 * To specify a custom change address, click on the vial icon.
 * To change/adjust the transaction fee, click on the wrench icon.
 * To copy your private key, click on the key icon.
-* To donate, click on the gift icon or the donate button.
+* To add a donation, click on the gift icon.
 * To release your HODL deposit, click on the unlock icon.
 
 # Merchants
