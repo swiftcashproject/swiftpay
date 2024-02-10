@@ -53,7 +53,7 @@ https://pay.swiftcash.cc?mAddress=SXucSXaV5HURNyJUWnPrVFHTdRzoVff6gU&coin=SWIFT&
 
 In this example, everything is just like above however, the requested money is in Bitcoin without any `currency` or `deduct` fields which means the user will be required to pay exactly `0.1 BTC` and there won't be any conversion to fiat.
 
-https://pay.swiftcash.cc?mAddress=SXucSXaV5HURNyJUWnPrVFHTdRzoVff6gU&coin=BTC&amount=0.1&data=3004125&retURL=https://hive.blog/@swiftcash
+https://pay.swiftcash.cc?mAddress=SXucSXaV5HURNyJUWnPrVFHTdRzoVff6gU&coin=BTC&amount=0.1&memo=3004125&retURL=https://hive.blog/@swiftcash
 
 Everything is completely open-source, decentralized and peer-to-peer with 0% fees taken for third parties, unlike things like coinpayments. Nothing runs on any server(s) and the merchant can verify the transactions via running full nodes or by using public coin explorers. The data field will be stored in the transaction in an OP_RETURN output. It will be the last output and can be easily accessed and decoded by the merchant. In case of SwiftCash (SWIFT) transactions, the decoded data is visible under the "Scripts" tab of transactions.
 
